@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: 'doctrin';
+    src: url(docktrin.ttf);
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-border{
+        height: 400px;
+        width: 300px;
+        background: linear-gradient(to bottom , #E0B10B,#8F7626,#524415);
+        padding: 8px;
+}
+
+.card{
+    height: 400px;
+    width: 300px;
+    background-image: url(card_bg.jfif);
+    background-size: cover;
+}
+.name{
+    display: flex;
+    justify-content: center;
+}
+
+
+.name_text{
+    color: #BEBEBE;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(88, 24, 88);
+    padding: 0px 20px;
+    border-radius: 15px;
+}
+.rank{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.rankName{
+    background-color: rgb(16, 16, 63);
+    color: #8F7626;
+    padding: 0px 10px;
+    border-radius: 15px;
+}
+
+.chac-quote{
+    padding-top: 5px;
+    text-align: center;
+    font-family: 'doctrin';
+    letter-spacing: 1px;
+    color: rgb(231, 221, 221);
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+}
+.character-image{
+    height: 131.53px;
+    width: 150px;
+    padding: 10px;
+    border:1px solid transparent;
+    border-radius: 15px;
+}
+
+img{
+    width: 100%;
+    border-radius: 15px;
+}
+
